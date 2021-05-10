@@ -5,23 +5,285 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <title>CS3043: Solo</title>
+    <style>
+      .card {
+        margin-bottom: 1em;
+      }
+      .card-body > p {
+        margin-bottom: 0;
+      }
+    </style>
   </head>
   <body>
     <div class="container my-3">
       <h1 id="title">CS3043: Solo (A Star Wars Story)</h1>
       <br>
-      <h3 id="notes">Meeting Notes</h3>
-      <div class="card">
-        <ul class="list-group list-group-flush">
-          <a class="list-group-item" href="https://docs.google.com/document/d/1TIMzHU7YuXKcjH-pFNzvzbIDDFV7Mr5QXQtl-R_Wpfs">List of Computing Technologies</a>
-          <a class="list-group-item" href="https://docs.google.com/document/d/1GH2noOuISUkewzrx5SJZnNwx3_D5e3ySeDkgZAXlxGQ">Timeline of Technological Events</a>
-          <a class="list-group-item" href="https://docs.google.com/document/d/1wzUZ_sCVZxpwYIIlZ9vdkqS65CIiE71OQF4Lg7DL3RY">4/10 and 4/14 Meeting Notes</a>
-          <a class="list-group-item" href="https://docs.google.com/document/d/1j3SxTxS6MFQZQGnkE97Ism521yKLkjkowtxy78RldGs">4/17 Meeting Notes</a>
-          <a class="list-group-item" href="https://docs.google.com/document/d/1D2J4e5vTLmPP8_N_A9Zr2jxBOaLwAhAcAFC_vfytabE">4/21 Meeting Notes</a>
-          <a class="list-group-item" href="https://docs.google.com/document/d/1H5TS6QedtX_yJw0QHeG_tWGd7Dj4Gu7LXydBfZwAz8g">4/24 Meeting Notes</a>
-          <a class="list-group-item" href="https://docs.google.com/document/d/1SJ61yJ2IcDbmKDtxaQhgwnx0XN_W_NXYV8XkqOEvUig">4/28 Meeting Notes</a>
-          <a class="list-group-item" href="https://docs.google.com/presentation/d/1631_G32WdzOQS-AL1ykBl8jhxVwzwtVK8GRBLIPavb4">Presentation Draft</a>
-        </ul>
+      <div id="technologies">
+        <h3>Computing Technologies</h3>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header">
+                Droids
+              </div>
+              <div class="card-body">
+                <p>Synthetic lifeforms complete with a full range of emotions typically built to serve a specific process. They are generally considered to be property rather than alive, and have their memories wiped to prevent them from having too much personality. Some owners may fit their droids with a restraining bolt to further control their autonomy. Droids are used for administration, piloting, repair, and security in the film.</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                Restraining Bolts
+              </div>
+              <div class="card-body">
+                <p>A restraining bolt is a piece of hardware that sticks to the outside of a droid and allows the owner to forbid certain actions or remotely disable the droid. It can be pried off without damage to the droid, which frees that droid from it’s control.</p>
+                <br>
+                <i>Additional Sources: Episode 4</i>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                Hyperspace
+              </div>
+              <div class="card-body">
+                <p>The faster-than-light travel in Star Wars is achieved through jumping to hyperspace. All hyperspace equipped ships need an onboard computer or a droid to calculate the route because, as Han says in <i>A New Hope</i>, “Traveling through hyperspace ain't like dusting crops, boy! Without precise calculations we could fly right through a star or bounce too close to a supernova and that'd end your trip real quick, wouldn't it?”.</p>
+                <br>
+                <i>Additional Sources: Episode 4</i>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                Holograms / The Holonet
+              </div>
+              <div class="card-body">
+                <p>Holograms in Star Wars are used to display information or receive media such as a video call. They appear to communicate at faster than light speed, since there is no lag when holoconfrencing with someone in another system. News and other programming is sent over the Empire-controlled Holonet, which seems more like a TV channel than our internet. Holograms can be traced back to their source with the right technology.</p>
+                <br>
+                <i>Additional Sources: Clone Wars / Rebels TV shows</i>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header">
+                Identichips
+              </div>
+              <div class="card-body">
+                <p>Synthetic lifeforms complete with a full range of emotions typically built to serve a specific process. They are generally considered to be property rather than alive, and have their memories wiped to prevent them from having too much personality. Some owners may fit their droids with a restraining bolt to further control their autonomy. Droids are used for administration, piloting, repair, and security in the film.</p>
+                <br>
+                <i>Additional Sources: Rebels TV show</i>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                Gravity Locks
+              </div>
+              <div class="card-body">
+                <p>These are computerized impound boots that connect to a ship’s landing gear and weigh themselves down far more than the normal effects of gravity would. These locks require either engineering knowledge, slicing (hacking), or a set code to safely remove. They are employed to prevent the theft of ships or to keep them grounded.</p>
+                <br>
+                <i>Additional Sources: Rebels TV show</i>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                Real world/implied computing technologies
+              </div>
+              <div class="card-body">
+                <p>The Star Wars universe has audio only communicators, though there is not much to indicate they are different from our own radios/cellphones. Scomp links are a universal device used to interface with a computer, similarly to how we have ports like ethernet or USB to connect a variety of devices. Prosthetic limbs would seemingly require an onboard computer to function, but it is not specified whether or not they do. Additionally, the speeders shown in this film may have computers on board regulating things such as their height and speed, but this is not stated specifically.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div id="topics">
+        <h3>Course Topics</h3>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header">
+                Networked Communication
+              </div>
+              <div class="card-body">
+                <h6>Holograms</h6>
+                <ul>
+                  <li>Holograms enable faster-than-light communication over great distances; while they are perceived as secure, some characters in the broader Star Wars universe are able to trace their origin</li>
+                  <li>The Holonet allows users to watch real-time broadcasts (news programs, etc…)</li>
+                </ul>
+                <h6>Other</h6>
+                <ul>
+                  <li>Radio communicators are used throughout, nothing special to note</li>
+                  <li>Networks can only be accessed physically, and there is no inter-network communication (no equivalent to the internet)</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                Intellectual Property
+              </div>
+              <div class="card-body">
+                <ul>
+                  <li>
+                    Intellectual property and rights are not concerns in Solo, or in the Star Wars canon
+                    <ul>
+                      <li>Extreme size of galaxy means that IP rights could not be enforced</li>
+                      <li>Existential threats (the Empire, gangs, rebels) much more immediate</li>
+                    </ul>
+                  </li>
+                  <li>Even if IP laws existed, since the protagonists are part of the criminal underworld, IP rights would not be respected</li>
+                  <li>Although L3-37’s navigational data (perhaps proprietary) is uploaded to the Millenium Falcon, droids are not considered sentient; L3 has no legal claim over the data</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                Information Privacy
+              </div>
+              <div class="card-body">
+                <p>NEED TO REFORMAT THIS INTO BULLET POINTS??</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                Privacy and the Government
+              </div>
+              <div class="card-body">
+                <ul>
+                  <li>The government (Galactic Empire) controls the galaxy, maintains the HoloNet, and uses Identichips to check personal information</li>
+                  <li>
+                    Many individuals in the movies seem to have more anonymity than we might expect
+                    <ul>
+                      <li>This is perhaps due to the fact that the rebels need to keep off-grid to maintain a low profile</li>
+                      <li>Or, the creators of the franchise did not anticipate the privacy violations created by major tech companies in the 21st century</li>
+                    </ul>
+                  </li>
+                  <li>Tracking hardware is somewhat common amongst smugglers and law-enforcement-types</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header">
+                Cybersecurity
+              </div>
+              <div class="card-body">
+                <ul>
+                  <li>
+                    When the Star Wars franchise was created in the 1970s, a general lack of computing technology meant that the general public did not consider cybersecurity and the issue of digital privacy
+                    <ul>
+                      <li>Since Solo is set before Star Wars: A New Hope (1977), it is somewhat bound by 1970s views on technology</li>
+                    </ul>
+                  </li>
+                  <li>
+                    Stealing property (ships, etc…), which might include personal data, is trivial
+                    <ul>
+                      <li>In Solo, the protagonists merely walk to the impound and fly the gravity-locked Millenium Falcon away</li>
+                    </ul>
+                  </li>
+                  <li>
+                    Scomp link ports are unsecured, meaning that anyone can plug personal hardware in and attempt to gain control over an unfamiliar system
+                    <ul>
+                      <li>While some communications are wireless, droids use scomp links to transfer data; physical nature could imply that data is more private and secure</li>
+                    </ul>
+                  </li>
+                  <li>
+                    Security is almost always an afterthought (NEED EXAMPLE)
+                    <ul>
+                      <li>Theory: security limit was reached, hackers cannot be countered, attempts to secure digital data are not worthwhile</li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                Computer Reliability
+              </div>
+              <div class="card-body">
+                <h6>Droids</h6>
+                <ul>
+                  <li>
+                    Droids with self-awareness/independent thinking seen as defective in some parts of the galaxy
+                    <ul>
+                      <li>Discussion question: do we give droids purpose or do they find it themselves?</li>
+                    </ul>
+                  </li>
+                  <li>Built to be robust, withstand extreme amounts of abuse (warfare, neglect, “amputation”)</li>
+                </ul>
+                <h6>Identichips</h6>
+                <ul>
+                  <li>
+                    Individual weakness: can be bought (illegally), negating security aspect entirely
+                    <ul>
+                      <li>In the opening scenes of <i>Solo</i>, coaxium is traded for an Identichip to secure passage from Corellia</li>
+                    </ul>
+                  </li>
+                  <li>Much like in modern society today, identity theft is rampant</li>
+                </ul>
+                <h6>Gravity Locks</h6>
+                <ul>
+                  <li>Although not shown directly in the movie, potentially disabled by hacking or brute force</li>
+                </ul>
+                <h6>Hyperspace Travel</h6>
+                <ul>
+                  <li>
+                    Different levels of navigation capabilities (and hyperspace reliability) available for each ship
+                    <ul>
+                      <li>Implied when L3 is uploaded to the Millenium Falcon to use her navigation system</li>
+                      <li>More expensive/powerful ships might skip into hyperspace more reliably</li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                Work and Wealth
+              </div>
+              <div class="card-body">
+                <h6>Automation</h6>
+                <ul>
+                  <li>Sapient droids more efficient at computation-heavy tasks, unclear if they possess other advantages</li>
+                  <li>Mass-produced droids similar to slaves in Star Wars universe; automation of forced manual intelligent labor</li>
+                  <li>Droids perform tasks organics are unwilling to do, for example sweeper droids (<i>Clone Wars</i>), toll-booth droids (<i>Solo</i>)</li>
+                </ul>
+                <h6>Winner Take All Society</h6>
+                <ul>
+                  <li>
+                    Wealth within criminal underworld, impoverished planets (Corellia) concentrated in hands of the few
+                    <ul>
+                      <li>Both slavery for "organics" with slave collors and for droids with restraining bolts are enabled by technology and wealth inequality</li>
+                    </ul>
+                  </li>
+                  <li>
+                    Organizations with more wealth able to steal more coaxium, take advantage of better resources
+                    <ul>
+                      <li>Digital Divide: some sentient droids are able to choose whom they work for (e.g. bounty hunter droids)</li>
+                      <li>As opposed to current technology, sentience results in droids that can discriminate when providing services; while there are differences in access to technology on Earth, once such technology is acquired, it simply "works" for its owner</li>
+                    </ul>
+                  </li>
+                  <li>Extends to computing side as well; L3's maps allow Millenium Falcon to complete Kessel Run in fewer parsecs</li>
+                  <li>Droids fight to the death in cage matches</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div id="notes">
+        <h3>Meeting Notes</h3>
+        <div class="card">
+          <ul class="list-group list-group-flush">
+            <a class="list-group-item" href="https://docs.google.com/document/d/1TIMzHU7YuXKcjH-pFNzvzbIDDFV7Mr5QXQtl-R_Wpfs">List of Computing Technologies</a>
+            <a class="list-group-item" href="https://docs.google.com/document/d/1GH2noOuISUkewzrx5SJZnNwx3_D5e3ySeDkgZAXlxGQ">Timeline of Technological Events</a>
+            <a class="list-group-item" href="https://docs.google.com/document/d/1wzUZ_sCVZxpwYIIlZ9vdkqS65CIiE71OQF4Lg7DL3RY">4/10 and 4/14 Meeting Notes</a>
+            <a class="list-group-item" href="https://docs.google.com/document/d/1j3SxTxS6MFQZQGnkE97Ism521yKLkjkowtxy78RldGs">4/17 Meeting Notes</a>
+            <a class="list-group-item" href="https://docs.google.com/document/d/1D2J4e5vTLmPP8_N_A9Zr2jxBOaLwAhAcAFC_vfytabE">4/21 Meeting Notes</a>
+            <a class="list-group-item" href="https://docs.google.com/document/d/1H5TS6QedtX_yJw0QHeG_tWGd7Dj4Gu7LXydBfZwAz8g">4/24 Meeting Notes</a>
+            <a class="list-group-item" href="https://docs.google.com/document/d/1SJ61yJ2IcDbmKDtxaQhgwnx0XN_W_NXYV8XkqOEvUig">4/28 Meeting Notes</a>
+            <a class="list-group-item" href="https://docs.google.com/presentation/d/1631_G32WdzOQS-AL1ykBl8jhxVwzwtVK8GRBLIPavb4">Presentation Draft</a>
+          </ul>
+        </div>
       </div>
     </div>
   </body>
